@@ -1,4 +1,4 @@
-# DDOS_Detection-and-Mitigarion-Using-ML and Entropy and RaspberryPi
+# DDOS_Detection-and-Mitigation-Using-ML and Entropy and RaspberryPi
 In this work, 5 machine learning algorithms are used to develop a model that can automatically identify and mitigate DDoS assaults in SDN networks. All of the traffic flow entries are regularly collected by the model, which then extracts the native flow features and expands them by including additional features. A detection module uses five criteria to categorize each flow as normal or anomalous. When an attack is discovered, its source is prevented. Three ML algorithms were assessed with regard to the classification ML method utilized in the detection module, including random forest, Decision Tree, Logistic Regression, Naïve Bayes, and KNN. The outcomes of the experiment demonstrated that Random Forest is the best classifier for the generated network. Without disrupting regular traffic, the implemented methodology proved effective at swiftly and correctly identifying and thwarting threats.
 Using Entropy we are able to detect the attack and for this we used POX Controller Instead of RYU.
 ## RESULTS
